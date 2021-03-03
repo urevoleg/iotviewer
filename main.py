@@ -5,7 +5,7 @@ import pandas as pd
 
 class IotViewer:
 
-    def __init__(self, kwargs):
+    def __init__(self, kwargs):git
         self.base_url = kwargs['url']
         self.api_version = kwargs['version']
         self.model = kwargs['model']
